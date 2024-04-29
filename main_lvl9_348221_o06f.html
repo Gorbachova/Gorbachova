@@ -1,0 +1,116 @@
+27 + 58
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+false - 24
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+kiwi * true
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+banana - 93
+const removeDuplicates = array => Array.from(new Set(array));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+11 - true
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+47,73,70,19,99,88,33,2,80,81,45,54,78,77,87,64,2,47,32,44,62,18,71,2,13,94,83,54,83,24,44,70,68,63,54,57,53,62,14,43,19,15,86,56,98,87,29,92,28,82,17,77,56,94,81,2,18,37,19,65,42,51,11,16,46,36,20 - banana
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+41,31,65,45 * false
+const greet = name => `Hello, ${name}!`;
+
+console.log(getRandomString());
+89 * 30,22,79,46,46,83,11,32,53,91,28,20,58,26,30,54,13,65,73,5,16,14,32,14,96,76,20,42,0,0,92,53,69,45,48,45,88,74,20,20,33,66,93,94,7,53,85,34,41,49,5,9,67,99,11,70,44,20,48,40,78
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const squareRoot = num => Math.sqrt(num);
+48 - 
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+grape
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const removeDuplicates = array => Array.from(new Set(array));
+const isPalindrome = str => str === str.split("").reverse().join("");
+true / 17
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+54 - orange
+
+function addNumbers(a, b) { return a + b; }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+11 + 44
+function addNumbers(a, b) { return a + b; }
+1,82,97,81,37,80,20,40,38 - true
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+4 * 74
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+7 + 55
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+false - 48
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+apple * false
+const getUniqueValues = array => [...new Set(array)];
+
+orange - 4
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const reverseString = str => str.split("").reverse().join("");
+
+apple / 95
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+20 * 11,12,67,77,25,96
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+banana + 16,55,56,11,97,20,82,49,5,65,21,11,12,57,23,84,68,72,17,72,19,29,56,64,96,77,70,59,90,3,13,22,86,79,77,17,22,16,47,2,62,82,49,79,76,3,63,23,67,99,8,55,4,44,6,94,67,34,69,23,50,66,8,93,18,27,26,38,86,51,82,17,99,53,15,94,50,11,6
+class MyClass { constructor() { this.property = getRandomString(); } }
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+92 + true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+false + 6,43,78,93,45,57,30,33,65,60,39,98,82,81,7,53,65,12,57,56
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+92,34,13,18,18,5,38,57,10,30,25,40,7,99,53,20,60,77,84,13,16,2,10,47,47,97,68,70,19,43,89,92,64,44,67,4,5,6,38,56,21,43,15,64,63 - grape
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+36 + 28,43,98,21,27,94,22,73,74,48,26,54,24,17,7,68,46,87,71,92,30,33,50,69,15,66,33,61,6,5,67,59,99,83,49,75,0,71,7,46,16,17,23,57,78,96,54,68,96,65,8,81,25,4,11,40,3,50,51,29,95,42,95,77,5
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+banana - true
+function addNumbers(a, b) { return a + b; }
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+orange
+
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+grape
+
+
+const reverseString = str => str.split("").reverse().join("");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+// This is a comment
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape * false
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+function addNumbers(a, b) { return a + b; }
+
+const isEven = num => num % 2 === 0;
